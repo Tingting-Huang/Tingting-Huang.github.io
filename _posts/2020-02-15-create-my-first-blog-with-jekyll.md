@@ -35,7 +35,6 @@ tags: github jekyll RubyGems
 
 
 ## 2. jekyll搭建过程
-
 ### 2.1 安装Ruby
 
 * [ruby官网](https://rubyinstaller.org/downloads/) 下载，建议选择2.6.5 with devkit版本，一路默认安装，同时注意勾选MSYS2相关的;
