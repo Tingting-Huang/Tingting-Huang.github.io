@@ -9,7 +9,7 @@
 title: tingting-huang blog
 brief-intro: GISer
 baseurl: "" # the subpath of your site, e.g. /blog
-url = https://tingting-huang.github.io/ # the base hostname & protocol for your site
+url: git@github.com:tingting-huang/tingting-huang.github.io.git # the base hostname & protocol for your site
 
 
 
