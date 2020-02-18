@@ -34,7 +34,6 @@ tags: github jekyll RubyGems
 >注意：如果出现```The CNAME is already taken.``` 莫慌，点击<>code 找到CNAME文件删除即可。
 
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/delete_cname.jpg)
-
 ## 2. jekyll搭建过程
 ### 2.1 安装Ruby
 * [ruby官网](https://rubyinstaller.org/downloads/) 下载，建议选择2.6.5 with devkit版本，一路默认安装，同时注意勾选MSYS2相关的;
@@ -141,7 +140,7 @@ categories：
 
 * ```git push origin master```  or  ```git push origin master -f```提交push博文到远程自己的项目分支库,后加-f表示强行提交;
 
-##QUESTIONS:
+## QUESTIONS:
 
 1.使用git push origin master的时候，提示我fatal: unable to access 'https://XXXX@github.com/XXX/XXX' Failed connect to github.com:8087; No error
 
@@ -152,8 +151,14 @@ categories：
 解决：设置SSH密钥，详见[segmentfault西山雨](https://segmentfault.com/a/1190000002645623#comment-area)
 
 3.设置好SSH后push出现如下情况
-![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/pusherror.png)
+![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/pusherror.png)或者GitHub总是发邮件通知```“You have an error on line 12(ie., url) of your '_config.yml'”```
 
-解决：因未修改Q2回答中的步骤6，即未修改url。详见[CSDN锐湃](https://blog.csdn.net/chuyouyinghe/article/details/79071859)
+解决：a.修改clone到本地的目录/_config.yml中的url；
+
+![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/修改_config.yml.png)
+
+b.修改clone到本地的目录/.git/config
+
+![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/修改git下的config.png)
 
 
