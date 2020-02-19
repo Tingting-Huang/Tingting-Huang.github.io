@@ -10,7 +10,7 @@ tags: github Picgo
 * content
 {:toc}
 
-几个月前吧，突然一阵抽风，想搭建个博客来记录自己的生活学习种种，当时搞了半天没成功就不了了之了。最近借着疫情闲赋在家的空档，顺着[xudailong_blog](https://blog.csdn.net/xudailong_blog/article/details/78762262)的思路，选择了在github上用jekyll搭建博客。尽管网上很多人写过类似教程，但软件更新换代较快，所以中途走了无数的弯路，希望这篇博文能对看到的你们有所帮助。因本人纯属小白，相关术语并不进行解释，直接上操作步骤。
+顺着
 
 ## 1 注册GitHub账号并fork模板
 
