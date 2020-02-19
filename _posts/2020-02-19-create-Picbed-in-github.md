@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Github+jekyll搭建个人博客"
-subtitle:   "my first blog"
-date:   2020-02-18 20:02:54
-categories: github
-tags: github jekyll RubyGems
+title:  "Github+PicGO搭建图床"
+subtitle:   ""
+date:   2020-02-19 20:02:54
+categories: github 
+tags: github Picgo
 ---
 
 * content
