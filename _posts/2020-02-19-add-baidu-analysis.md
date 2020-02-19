@@ -20,20 +20,20 @@ tags: baidutongji
 
 加入```baidu-analysis: ********************************```
 
-### 3 在_includes中新建文件baidu-anaylysis.html加入以下代码
-```
-<script>
-  var _hmt = _hmt || [];
-  (function() {
-    var hm = document.createElement("script");
-	**hm.src = "https://hm.baidu.com/hm.js?<%= theme.baidu_analytics %>";**
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
-</script>
-```
-注意：与其他博文相比，```hm.src = "https://hm.baidu.com/hm.js?<%= theme.baidu_analytics %>";```此处加了https，百度统计就会检测代码安装正确。
+**为你的32位ID，
+
+### 3 在_includes/head.html加入上图中所有代码，完成统计功能
 
 ### 4 在_layouts/default.html中添加
 
-``` {% include baidu-analysis.html %}```
+``` <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+```
+
+在_includes目录下的footer.html中添加如下代码，这样文章底部有了统计访问量功能
+
+```<span id="busuanzi_container_site_pv">本站总访问量：<span id="busuanzi_value_site_pv"></span>次</span>```
+
+在_layouts目录下的post.html中添加如下代码，这样每篇文章有了统计访问量功能
+
+```<span id="busuanzi_container_page_pv"> | 访问量：<span id="busuanzi_value_page_pv"></span> 次</span>```
+
