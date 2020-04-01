@@ -16,7 +16,6 @@ tags: origin legend
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/20200401对齐图例1垂直或者水平排列.png)
 
 
-
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/20200401对齐图例1垂直或者水平排列结果.png)
 
 
