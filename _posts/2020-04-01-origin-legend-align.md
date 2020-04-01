@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "出国留学准备心路历程"
-subtitle:   "20200220正式着手准备"
-date:   2020-02-20 22:02:54
+title:  "origin对齐图例"
+subtitle:   
+date:   2020-04-01 22：00
 categories: abroad
 tags: 
 ---
