@@ -14,6 +14,7 @@ tags: word figure index
 #### 1. 确保所有图片为嵌入式；
 毕业论文要求正文行距为20磅，插入图片时会不完全显示，更改行距即可解决。
 单击图片，更改行距为1.5倍，无首行缩进，创建为“图片”样式。
+
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/0嵌入式.jpg)
 
 #### 2. 在图下方插入题注；
@@ -22,11 +23,12 @@ tags: word figure index
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/1插入题注.png)
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/2包含章节.png)
 
-#### 3.复制生成的题注，即“图1”（默认是图表1，我去掉了表字），CTRL+H，在替换框中的查找内容输入：^g，替换为输入：^&^p^c，然后全部替换。
+#### 3. 复制生成的题注，即“图1”（默认是图表1，我去掉了表字），CTRL+H，在替换框中的查找内容输入：^g，替换为输入：^&^p^c，然后全部替换。
 ^g是每一张图片，^&是搜索的原对象，^g替换成^&表示N个图都保持原样不替换。^p是换行，表示题注位于图片的下一行，^c表示复制的内容。
 
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/20200405101541.jpg)
-![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/4.2替换.jpg)
+
+![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/4.2替换aa.jpg)
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/4.3拒绝从头搜索.jpg)
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/4.4两个图1.jpg)
 
