@@ -21,7 +21,7 @@ tags: ArcGIS feature multipart singlepart
 #### 2. selected features和Multipart to Singlepart加入连接，并设置某流域图层为input features；
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/20200406163404.jpg)
 
-#### 3.feature selection设置拆分字段，“流域编号”；Multipart to Singlepart设置输出文件名，%Value%表示根据拆分字段的数值进行文件命名；
+#### 3.feature selection输入某流域图层，并设置拆分字段，即“流域编号”；Multipart to Singlepart只需要设置输出文件名，%Value%表示根据拆分字段的数值进行文件命名；
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/20200406163020.jpg)
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/20200406164240.jpg)
 
