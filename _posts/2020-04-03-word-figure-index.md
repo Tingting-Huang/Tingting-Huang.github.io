@@ -36,3 +36,5 @@ tags: word figure index
 
 #### 5. 插入目录
 ![](https://raw.githubusercontent.com/tingting-huang/PicGo/master/blog_files/img/PicGo-GitHub-PicBed/5插入表目录.jpg)
+
+>如果有添加图片，只需复制已生成的题注到新图片下方，如“图1”，CTRL+A 全选，然后按fn+F9刷新即可更新编号；
